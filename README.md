@@ -12,3 +12,7 @@ cmake -B build && cmake --build build
 ```
 bulid/hanoi
 ```
+
+## example
+
+![example screenshot](./screenshot.png)
