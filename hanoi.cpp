@@ -6,7 +6,7 @@
 #include <exception>
 #include <iostream>
 
-class Towers {
+class TowerOfHanoi {
 public:
   Towers(size_t n) {
     for (size_t i = n; i > 0; i--) {
@@ -63,7 +63,7 @@ private:
 };
 
 int main() {
-  std::print("stack height? =");
+  std::print("height? =");
   size_t height = 0;
   std::cin >> height;
 
